@@ -1,0 +1,1 @@
+colors = [yellow, white, red, black, orange, blue, green, brown]

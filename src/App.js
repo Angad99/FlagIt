@@ -1,12 +1,11 @@
-import logo from './logo.svg';
+import Main from './components/MainComponent';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
-      <img src={'FlagIt/assets/flags/ad.png'}></img>
-      <p>fds</p>
-
+      <Main />
     </div>
   );
 }
