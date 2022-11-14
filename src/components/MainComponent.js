@@ -13,7 +13,10 @@ class Main extends Component {
             showBlue: false,
             showRed: false,
             showWhite: false,
-            showBlack: false
+            showBlack: false,
+            showOrange: false,
+            showYellow: false,
+            showPurple: false
         };
     }
 
@@ -35,6 +38,18 @@ class Main extends Component {
 
     toggleShowWhite = () => {
         this.setState({ showWhite: !this.state.showWhite })
+    }
+
+    toggleShowOrange = () => {
+        this.setState({ showOrange: !this.state.showOrange })
+    }
+
+    toggleShowYellow = () => {
+        this.setState({ showYellow: !this.state.showYellow })
+    }
+
+    toggleShowPurple = () => {
+        this.setState({ showPurple: !this.state.showPurple })
     }
 
 
@@ -59,6 +74,18 @@ class Main extends Component {
         ? filteredFlags.filter((flag)=>flag.descriptors.includes('white'))
         : filteredFlags
 
+        filteredFlags = this.state.showOrange
+        ? filteredFlags.filter((flag)=>flag.descriptors.includes('orange'))
+        : filteredFlags
+
+        filteredFlags = this.state.showYellow
+        ? filteredFlags.filter((flag)=>flag.descriptors.includes('yellow'))
+        : filteredFlags
+
+        filteredFlags = this.state.showPurple
+        ? filteredFlags.filter((flag)=>flag.descriptors.includes('purple'))
+        : filteredFlags
+
         return filteredFlags
     }
 
@@ -80,6 +107,12 @@ class Main extends Component {
                     <label> red </label>
                     <input type='checkbox' checked={this.state.showWhite} onChange={this.toggleShowWhite}/>
                     <label> white </label>
+                    <input type='checkbox' checked={this.state.showOrange} onChange={this.toggleShowOrange}/>
+                    <label> orange </label>
+                    <input type='checkbox' checked={this.state.showYellow} onChange={this.toggleShowYellow}/>
+                    <label> yellow </label>
+                    <input type='checkbox' checked={this.state.showPurple} onChange={this.toggleShowPurple}/>
+                    <label> purple </label>
                 </div>
                 <FlagList flags={filteredFlags}></FlagList>
             </div>
@@ -88,7 +121,6 @@ class Main extends Component {
 }
 
 function FlagList({flags}){
-    // const greenflags = flags.filter((flag)=>flag.descriptors.includes('green'))
     const flaglist = flags.map((flag) => {
         return (
             <div key={flag.id} className="col-6 col-md-3">
