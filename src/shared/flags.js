@@ -984,12 +984,6 @@ export const FLAGS = [
         image: 'assets/flags/nf.png'
     },
     {
-        id: 165,
-        name: '',
-        descriptors: [],
-        image: 'assets/flags/.png'
-    },
-    {
         id: 166,
         name: 'Nigeria',
         descriptors: ['green', 'white'],
@@ -1255,68 +1249,248 @@ export const FLAGS = [
     },
     {
         id: 210,
-        name: '',
-        descriptors: [],
-        image: 'assets/flags/.png'
+        name: 'São Tomé and Príncipe',
+        descriptors: ['green', 'yellow', 'red', 'black'],
+        image: 'assets/flags/st.png'
     },
     {
-        id: 210,
-        name: '',
-        descriptors: [],
-        image: 'assets/flags/.png'
+        id: 211,
+        name: 'El Salvador',
+        descriptors: ['blue', 'white', 'yellow', 'green'],
+        image: 'assets/flags/sv.png'
     },
     {
-        id: 210,
-        name: '',
-        descriptors: [],
-        image: 'assets/flags/.png'
+        id: 212,
+        name: 'Sint Maarten',
+        descriptors: ['red', 'white', 'blue', 'yellow'],
+        image: 'assets/flags/sx.png'
     },
     {
-        id: 210,
-        name: '',
-        descriptors: [],
-        image: 'assets/flags/.png'
+        id: 213,
+        name: 'Syria',
+        descriptors: ['red', 'white', 'black', 'green'],
+        image: 'assets/flags/sy.png'
     },
     {
-        id: 210,
-        name: '',
-        descriptors: [],
-        image: 'assets/flags/.png'
+        id: 214,
+        name: 'Eswatini',
+        descriptors: ['blue', 'yellow', 'red', 'black', 'white'],
+        image: 'assets/flags/sz.png'
     },
     {
-        id: 210,
-        name: '',
-        descriptors: [],
-        image: 'assets/flags/.png'
+        id: 215,
+        name: 'Turks and Caicos Islands',
+        descriptors: ['red', 'white', 'blue', 'green', 'yellow'],
+        image: 'assets/flags/tc.png'
     },
     {
-        id: 210,
-        name: '',
-        descriptors: [],
-        image: 'assets/flags/.png'
+        id: 216,
+        name: 'Chad',
+        descriptors: ['blue', 'yellow', 'red'],
+        image: 'assets/flags/td.png'
     },
     {
-        id: 210,
-        name: '',
-        descriptors: [],
-        image: 'assets/flags/.png'
+        id: 217,
+        name: 'French Southern and Antarctic Lands',
+        descriptors: ['red', 'white', 'blue'],
+        image: 'assets/flags/tf.png'
     },
     {
-        id: 210,
-        name: '',
-        descriptors: [],
-        image: 'assets/flags/.png'
+        id: 218,
+        name: 'Togo',
+        descriptors: ['red', 'yellow', 'green', 'white'],
+        image: 'assets/flags/tg.png'
     },
     {
-        id: 210,
-        name: '',
-        descriptors: [],
-        image: 'assets/flags/.png'
+        id: 219,
+        name: 'Thailand',
+        descriptors: ['red', 'white', 'blue'],
+        image: 'assets/flags/th.png'
     },
     {
-        id: 210,
-        name: '',
-        descriptors: [],
-        image: 'assets/flags/.png'
+        id: 220,
+        name: 'Tajikistan',
+        descriptors: ['red', 'white', 'yellow', 'green'],
+        image: 'assets/flags/tj.png'
+    },
+    {
+        id: 221,
+        name: 'Tokelau',
+        descriptors: ['blue', 'yellow', 'white'],
+        image: 'assets/flags/tk.png'
+    },
+    {
+        id: 222,
+        name: 'Timor-Leste',
+        descriptors: ['black', 'white', 'red', 'yellow'],
+        image: 'assets/flags/tl.png'
+    },
+    {
+        id: 223,
+        name: 'Turkmenistan',
+        descriptors: ['red', 'green', 'yellow', 'white'],
+        image: 'assets/flags/tm.png'
+    },
+    {
+        id: 224,
+        name: 'Tunisia',
+        descriptors: ['red', 'white'],
+        image: 'assets/flags/tn.png'
+    },
+    {
+        id: 225,
+        name: 'Tonga',
+        descriptors: ['red', 'white'],
+        image: 'assets/flags/to.png'
+    },
+    {
+        id: 226,
+        name: 'Turkey',
+        descriptors: ['red', 'white'],
+        image: 'assets/flags/tr.png'
+    },
+    {
+        id: 227,
+        name: 'Trinidad and Tobago',
+        descriptors: ['red', 'white', 'black'],
+        image: 'assets/flags/tt.png'
+    },
+    {
+        id: 228,
+        name: 'Tuvalu',
+        descriptors: ['red', 'white', 'blue' ,'yellow'],
+        image: 'assets/flags/tv.png'
+    },
+    {
+        id: 229,
+        name: 'Taiwan',
+        descriptors: ['red', 'white', 'blue'],
+        image: 'assets/flags/tw.png'
+    },
+    {
+        id: 230,
+        name: 'Tanzania',
+        descriptors: ['green', 'yellow', 'black', 'blue'],
+        image: 'assets/flags/tz.png'
+    },
+    {
+        id: 231,
+        name: 'Ukraine',
+        descriptors: ['blue', 'yellow'],
+        image: 'assets/flags/ua.png'
+    },
+    {
+        id: 232,
+        name: 'Uganda',
+        descriptors: ['red', 'yellow', 'black', 'white'],
+        image: 'assets/flags/ug.png'
+    },
+    {
+        id: 233,
+        name: 'United States',
+        descriptors: ['red', 'blue', 'white'],
+        image: 'assets/flags/us.png'
+    },
+    {
+        id: 234,
+        name: 'Uruguay',
+        descriptors: ['yellow', 'blue', 'white'],
+        image: 'assets/flags/uy.png'
+    },
+    {
+        id: 235,
+        name: 'Uzbekistan',
+        descriptors: ['blue', 'white', 'red', 'green'],
+        image: 'assets/flags/uz.png'
+    },
+    {
+        id: 236,
+        name: 'Vatican City',
+        descriptors: ['yellow', 'white', 'grey', 'red'],
+        image: 'assets/flags/va.png'
+    },
+    {
+        id: 237,
+        name: 'Saint Vincent and the Grenadines',
+        descriptors: ['blue', 'yellow', 'green'],
+        image: 'assets/flags/vc.png'
+    },
+    {
+        id: 238,
+        name: 'Venezuela',
+        descriptors: ['yellow', 'blue', 'red', 'white'],
+        image: 'assets/flags/ve.png'
+    },
+    {
+        id: 239,
+        name: 'British Virgin Islands',
+        descriptors: ['green', 'yellow', 'blue', 'red', 'white', 'black'],
+        image: 'assets/flags/vg.png'
+    },
+    {
+        id: 240,
+        name: 'U.S. Virgin Islands',
+        descriptors: ['red', 'white', 'blue', 'yellow', 'green'],
+        image: 'assets/flags/vi.png'
+    },
+    {
+        id: 241,
+        name: 'Vietnam',
+        descriptors: ['red', 'yellow'],
+        image: 'assets/flags/vn.png'
+    },
+    {
+        id: 242,
+        name: 'Vanuatu',
+        descriptors: ['red', 'black', 'yellow', 'green'],
+        image: 'assets/flags/vu.png'
+    },
+    {
+        id: 243,
+        name: 'Wallis and Futuna',
+        descriptors: ['red', 'white', 'blue'],
+        image: 'assets/flags/wf.png'
+    },
+    {
+        id: 244,
+        name: 'Samoa',
+        descriptors: ['red', 'white', 'blue'],
+        image: 'assets/flags/ws.png'
+    },
+    {
+        id: 245,
+        name: 'Kosovo',
+        descriptors: ['blue', 'white', 'yellow'],
+        image: 'assets/flags/xk.png'
+    },
+    {
+        id: 246,
+        name: 'Yemen',
+        descriptors: ['red', 'white', 'black'],
+        image: 'assets/flags/ye.png'
+    },
+    {
+        id: 247,
+        name: 'Mayotte',
+        descriptors: ['red', 'white', 'blue', 'yellow', 'grey'],
+        image: 'assets/flags/yt.png'
+    },
+    {
+        id: 248,
+        name: 'South Africa',
+        descriptors: ['red', 'white', 'black', 'yellow', 'green', 'blue'],
+        image: 'assets/flags/za.png'
+    },
+    {
+        id: 249,
+        name: 'Zambia',
+        descriptors: ['green', 'red', 'black', 'orange'],
+        image: 'assets/flags/zm.png'
+    },
+    {
+        id: 250,
+        name: 'Zimbabwe',
+        descriptors: ['green', 'yellow', 'red', 'black', 'white'],
+        image: 'assets/flags/zw.png'
     },
 ]
